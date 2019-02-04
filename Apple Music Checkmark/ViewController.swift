@@ -39,6 +39,7 @@ class ViewController: UIViewController {
         self.messageLabel.leadingAnchor.constraint(equalTo: self.completionAlertView.leadingAnchor, constant: 4).isActive = true
         self.messageLabel.trailingAnchor.constraint(equalTo: self.completionAlertView.trailingAnchor, constant: 4).isActive = true
         self.messageLabel.translatesAutoresizingMaskIntoConstraints = false
+        
     }
     
     
